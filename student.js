@@ -27,7 +27,7 @@ students.push(addElement);
 console.log("Vektori students  me objektet: ", students);
 //document.querySelector('form').reset();
 document.getElementById('forma2').reset();
-
+return students;
 }
 document.addEventListener('DOMContentLoaded', ()=>{
   document.getElementById('submit').addEventListener('click', addStudent);
